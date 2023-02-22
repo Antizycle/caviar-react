@@ -12,7 +12,7 @@ export default function Card({data}) {
           {data.name}
         </p>
         <p className='text-center text-price text-price--gray'>
-          {data.price} &#8381;
+          {data.price}&nbsp;&#8381;
         </p>
           <Tooltip id={data.id} name={data.name} type={data.type}>
             Подробнее
