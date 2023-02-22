@@ -7,6 +7,9 @@ const IMAGE_SIZE_LIMIT = 10000;
 
 const config = (): Configuration => {
     return {
+        output: {
+          assetModuleFilename: 'img/[hash][ext][query]',
+        },
         module: {
           rules: [
             {
@@ -51,7 +54,7 @@ const config = (): Configuration => {
             },
             {
               test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
-              type: 'asset',
+              type: 'asset/resource',
               parser: {
                 dataUrlCondition: {
                   maxSize: IMAGE_SIZE_LIMIT,
@@ -76,7 +79,7 @@ const config = (): Configuration => {
                 {
                   loader: 'file-loader',
                   options: {
-                    name: 'static/media/[name].[hash].[ext]',
+                    name: 'src/img/[name].[hash].[ext]',
                   },
                 },
               ],

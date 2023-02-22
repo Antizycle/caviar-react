@@ -1,7 +1,7 @@
 
 export default function MainHeader() {
   return (
-      <div className='main__topper'>
+      <div className='main__topper' id='topper'>
         <img src='./img/caviar_bg.jpg' className='topper__bg-image' alt='Чёрная икра в Калининграде' />
         <div className='topper__content'>
           <h1 className='text-shadow'>НАТУРАЛЬНАЯ ЧЁРНАЯ ИКРА</h1>

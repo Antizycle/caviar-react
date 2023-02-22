@@ -1,7 +1,8 @@
+import Button from './order-button.jsx'
 
 export default function SpecialOffer() {
   return (
-      <div className='main__content'>
+      <div className='main__content' id='special-offer'>
         <section className='content__text-column5'>
           <h1>Ограниченное предложение</h1>
           <p className='text1'>
@@ -31,9 +32,9 @@ export default function SpecialOffer() {
           <p className='text-center text-price text-red'>
             22 500 &#8381;
           </p>
-          <p className='text-center'>
-            <button className='btn btn--big'>Заказать в один клик</button>
-          </p>
+            <Button id='limited_250' name='Икра чёрная забойная осетровая «Traditional» ж/б (250&nbsp;г)'>
+               Заказать в один клик
+            </Button>
         </section>
         <section className='content__text-column4'>
           <img src="./img/limited_still.jpg" alt="Икра забойная осетровая «Traditional»" className='content__image'/>
