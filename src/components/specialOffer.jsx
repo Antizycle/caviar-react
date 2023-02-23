@@ -4,7 +4,7 @@ export default function SpecialOffer() {
   return (
       <div className='main__content' id='special-offer'>
         <section className="content__wrapper gap1rem">
-          <section className='content__text-column5'>
+          <section className='content__text-column55'>
             <h1>Ограниченное предложение</h1>
             <p className='text1'>
               В 2020 году Волгореченскому рыбному хозяйству исполнилось 45 лет. 
@@ -37,7 +37,7 @@ export default function SpecialOffer() {
                 Заказать в один клик
               </Button>
           </section>
-          <section className='content__text-column4'>
+          <section className='content__text-column40'>
             <img src="./img/limited_still.jpg" alt="Икра забойная осетровая «Traditional»" className='content__image'/>
           </section>
         </section>

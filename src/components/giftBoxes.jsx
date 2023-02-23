@@ -1,6 +1,6 @@
 
 import giftData from '../data/gift-data.json';
-import GiftCard from './gift-card.jsx';
+import GiftCard from './giftCard.jsx';
 
 export default function GiftBoxes() {
   return (

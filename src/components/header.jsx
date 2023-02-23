@@ -36,10 +36,10 @@ export default function Header() {
                   </a>
               </div>
               <div className='nav__link' alt='Позвонить нам'>
-              <a href='tel:+74012336699' className='btn'>
-                  <img src={phone} className='nav__icon nav__icon--big' />
-                  +7 (4012) 33-66-99
-              </a>
+                <a href='tel:+74012336699' className='btn'>
+                    <img src={phone} className='nav__icon nav__icon--big' />
+                    +7 (4012) 33-66-99
+                </a>
               </div>
             </div>
         </nav>
