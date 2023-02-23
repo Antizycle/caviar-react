@@ -11,7 +11,7 @@ export default function RetailShops() {
             <h4>
               <a href="https://yandex.ru/maps/-/CCU5iTRnpA"
                  title="Wine Market, ул. Литовский вал, 2. Смотреть на карте"
-                 className='text-link'>
+                 className='text-blue'>
                  Ул. Литовский вал, 2
               </a>
             </h4>
@@ -24,7 +24,7 @@ export default function RetailShops() {
             <h4>
               <a href="https://yandex.ru/maps/-/CCU5iTR0~D" 
                  title="Wine Market, пр. Мира, 23–27. Смотреть на карте"
-                 className='text-link'>
+                 className='text-blue'>
                 Проспект Мира, 23–27
               </a>
             </h4>
@@ -37,7 +37,7 @@ export default function RetailShops() {
             <h4>
               <a href="https://yandex.ru/maps/-/CCU5iTVICD" 
                  title="Магазин Бутыль, ул. Леонова, 55. Смотреть на карте"
-                 className='text-link'>
+                 className='text-blue'>
                 Ул. Леонова, 55
               </a>
             </h4>

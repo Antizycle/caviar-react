@@ -6,7 +6,7 @@ export default function WhyUs() {
           <section className="content__wrapper">
             <section className='content__text-column54  text-left'>
               <h1>
-                Наша чёрная икра — один из самых востребованных деликатесов в мире
+                Наша чёрная икра&nbsp;— один из самых востребованных деликатесов в мире
               </h1>
               <p className='text1'>
                 Естественно, что при покупке чёрной икры, люди хотят быть уверены

@@ -20,7 +20,7 @@ export default function Header() {
                   <a href='#delivery'>Доставка</a>
               </div>
               <div className='nav__link nav__link--highlight'>
-                  <a href='#types'>Сорта</a>
+                  <a href='#varieties'>Сорта</a>
               </div>
               <div className='nav__link nav__link--highlight'>
                   <a href='#contacts'>Контакты</a>

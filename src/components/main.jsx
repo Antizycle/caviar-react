@@ -6,6 +6,7 @@ import Delivery from './delivery.jsx';
 import RetailShops from './retailShops.jsx';
 import Varieties from './varieties.jsx';
 import WhyUs from './whyUs.jsx';
+// import Contacts from './contacts.jsx';
 
 export default function Main() {
   return (
