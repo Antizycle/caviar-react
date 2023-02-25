@@ -12,6 +12,7 @@ export default function Main() {
   return (
     <main className='main'>
       <MainHeader />
+      <hr />
       <SpecialOffer />
       <hr />
       <Catalog />
@@ -28,5 +29,3 @@ export default function Main() {
     </main>
   );
 }
-
-// retail-shops (horizontal scroll?)	sorts	why-us	map-widget

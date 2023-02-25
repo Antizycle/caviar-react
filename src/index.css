@@ -227,12 +227,35 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 4rem;
 }
 
+.catalog-control {
+    display: inline-block;
+}
+
+.control__filters {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.control__sorting {
+    flex-grow: 0;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.type-checkboxes {
+    display: flex;
+    gap: 0 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start ;
+}
+
 .catalog__card {
-    max-width: 300px;
+    flex: 1 0 25%;
+    min-width: 270px;
 }
 
 footer {
@@ -314,6 +337,10 @@ footer {
 
 .inline-svg {
     vertical-align: -0.125rem;
+}
+
+.inline-block {
+    display: inline-block;
 }
 
 /* buttons */
@@ -545,6 +572,12 @@ footer {
     .content__text-column40 {
         flex: 0 0 40%;
         max-width: 40%;
+    }
+
+    .catalog-control {
+        display: flex;
+        gap: 1rem;
+        justify-content: space-between;
     }
 
 }
