@@ -20,11 +20,11 @@ export default function Tooltip({id, name, type, children}) {
   return (
     <div ref={domNode}>
       <p className='text-center relative'>
-        <button className='btn btn-link' value={id} type="button" ref={setReferenceElement}
+        <span className='btn-link' value={id} type="button" ref={setReferenceElement}
             id={'tooltipBtn-' + id} 
             onClick={() => setTooltipIsVisible(!tooltipIsVisible)}>
             {children}
-        </button>
+        </span>
       </p>  
 
       <div className={'tooltip ' + (tooltipIsVisible ? 'tooltip-show' : '')} 

@@ -22,7 +22,7 @@ export default function GiftCard({data}) {
       <p className='text-center text-price'>
         {data.variant_small.price}&nbsp;&#8381;
       </p>
-      <Button id={data.variant_small.id} name={data.variant_small.name}>
+      <Button id={data.variant_small.id} name={data.variant_small.name} price={data.variant_small.price}>
         Заказать в один клик
       </Button>
       <p className='text-center'>
@@ -35,7 +35,7 @@ export default function GiftCard({data}) {
       <p className='text-center text-price'>
         {data.variant_big.price}&nbsp;&#8381;
       </p>
-      <Button id={data.variant_big.id} name={data.variant_big.name}>
+      <Button id={data.variant_big.id} name={data.variant_big.name} price={data.variant_big.price}>
         Заказать в один клик
       </Button>
     </div>

@@ -17,7 +17,7 @@ export default function Card({data}) {
           <Tooltip id={data.id} name={data.name} type={data.type}>
             Подробнее
           </Tooltip>
-          <Button id={data.id} name={data.name}>
+          <Button id={data.id} name={data.name} price={data.price}>
             Заказать в один клик
           </Button>
     </div>

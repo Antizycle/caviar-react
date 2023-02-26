@@ -354,7 +354,6 @@ footer {
     font-size: 1rem;
     cursor: pointer;
     white-space: nowrap;
-    justify-content: center;
     transition: 150ms ease-in;
     transform-origin: top left;
 }
@@ -391,6 +390,7 @@ footer {
     font-weight: 400;
     color: #007bff;
     background-color: transparent;
+    cursor: pointer;
 }
 
 .btn:focus,
@@ -413,6 +413,21 @@ footer {
 
 .btn:active {
     transform: translate(1px, 1px);
+}
+
+button:disabled {
+    background-color: var(--gray-color);
+    color: var(--light-color);
+    cursor: default;
+}
+
+button:disabled:active,
+button:disabled:focus,
+button:disabled:hover {
+    transform: none;
+    background-color: var(--gray-color);
+    color: var(--light-color);
+    cursor: default;
 }
 
 /* text */
@@ -451,6 +466,9 @@ footer {
     color: #0069d9;
 }
 
+.text-red {
+    color: var(--price-color);
+}
 
 .img-common {
     margin: 1rem auto;
@@ -544,12 +562,21 @@ footer {
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-.form-control:focus {
+.form-control:focus,
+.form-control:active {
     color: #495057;
     background-color: #fff;
     border-color: #80bdff;
     outline: 0;
     box-shadow: 0 0 0 .2rem rgba(0,123,255,.25);
+}
+
+.--error {
+    box-shadow: 0 0 0 .2rem rgba(209, 1, 1, 0.95);
+}
+.--error:focus,
+.--error:active {
+    box-shadow: 0 0 0 .2rem rgba(209, 1, 1, 0.95);
 }
 
 .form-control::placeholder {
