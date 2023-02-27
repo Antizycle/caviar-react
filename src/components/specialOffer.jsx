@@ -33,7 +33,7 @@ export default function SpecialOffer() {
             <p className='text-center text-price text-red'>
               22 500 &#8381;
             </p>
-              <Button id='limited_250' name='Икра чёрная забойная осетровая «Traditional» ж/б (250&nbsp;г)'>
+              <Button id='limited_250' name='Икра чёрная забойная осетровая «Traditional» ж/б (250&nbsp;г)' type='catalog' price='22 500'>
                 Заказать в один клик
               </Button>
           </section>

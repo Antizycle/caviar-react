@@ -1,6 +1,8 @@
 import Button from './order-button.jsx';
+import priceFormatter from '../scripts/priceFormatter.js'
 
 export default function GiftCard({data}) {
+
   return (
     <div className="catalog__card" id={data.id}>
       <p className='text-center'>
@@ -17,12 +19,12 @@ export default function GiftCard({data}) {
         {data.description}
       </p>
       <p className='text-center'>
-        {data.variant_small.name}
+        {data.variantSmall.name}
       </p>
       <p className='text-center text-price'>
-        {data.variant_small.price}&nbsp;&#8381;
+        {priceFormatter(data.variantSmall.price)}&nbsp;&#8381;
       </p>
-      <Button id={data.variant_small.id} name={data.variant_small.name} price={data.variant_small.price}>
+      <Button id={data.variantSmall.id} name={data.variantSmall.name} type='giftbox' price={priceFormatter(data.variantSmall.price)}>
         Заказать в один клик
       </Button>
       <p className='text-center'>
@@ -30,12 +32,12 @@ export default function GiftCard({data}) {
           className="img-common"/>
       </p>
       <p className='text-center'>
-        {data.variant_big.name}
+        {data.variantBig.name}
       </p>
       <p className='text-center text-price'>
-        {data.variant_big.price}&nbsp;&#8381;
+        {priceFormatter(data.variantBig.price)}&nbsp;&#8381;
       </p>
-      <Button id={data.variant_big.id} name={data.variant_big.name} price={data.variant_big.price}>
+      <Button id={data.variantBig.id} name={data.variantBig.name} type='giftbox' price={priceFormatter(data.variantBig.price)}>
         Заказать в один клик
       </Button>
     </div>

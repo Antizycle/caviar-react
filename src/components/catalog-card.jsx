@@ -1,7 +1,9 @@
 import Tooltip from './tooltip.jsx';
 import Button from './order-button.jsx';
+import priceFormatter from '../scripts/priceFormatter.js'
 
 export default function Card({data}) {
+
   return (
     <div className="catalog__card" key={'entry' + data.id} id={data.id}>
       <p className='text-center'>
@@ -12,12 +14,12 @@ export default function Card({data}) {
           {data.name}
         </p>
         <p className='text-center text-price text-price--gray'>
-          {data.price}&nbsp;&#8381;
+          {priceFormatter(data.price)}&nbsp;&#8381;
         </p>
           <Tooltip id={data.id} name={data.name} type={data.type}>
             Подробнее
           </Tooltip>
-          <Button id={data.id} name={data.name} price={data.price}>
+          <Button id={data.id} name={data.name} type='catalog' price={priceFormatter(data.price)}>
             Заказать в один клик
           </Button>
     </div>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <form method="POST" action="./mailer.php">
+            <input type='hidden' class='form-control' name='id' value="premium_50" />
+            <input type='hidden' class='form-control' name='type' value="catalog" />
+        	  <div class='form-group'>
+        	      <input type='text' 
+                       name='clientName' 
+                       value={formInputs.name}
+                       aria-describedby='emailHelp' 
+                       placeholder='Введите ваше имя'
+                       requried
+                       />
+        	   </div>
+        	   <div class='form-group'>
+        	      <input type='tel' 
+                       name='clientPhone' 
+                       value={formInputs.phone}
+                       maxlength='17'
+                       placeholder='Введите ваш телефон'
+                       title="от 6 до 14 цифры. Домашний либо мобильный начиная с +7 или 8"
+                       requried
+                       />
+        	   </div>
+        	   <button type='submit' 
+                     class='btn btn--big btn--blue'
+                     >
+              Заказать
+            </button>
+        	</form>
+  
+</body>
+</html>

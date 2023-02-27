@@ -1,0 +1,191 @@
+[
+  {
+    "name": "Икра чёрная Classic (50\u00a0г)",
+    "type": "classic",
+    "weight": 50,
+    "image": "50_classic.jpg",
+    "id": "classic_50",
+    "price": 3900,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Premium (50\u00a0г)",
+    "type": "premium",
+    "weight": 50,
+    "image": "50_premium.jpg",
+    "id": "premium_50",
+    "price": 4200,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Selected (50\u00a0г)",
+    "type": "selected",
+    "weight": 50,
+    "image": "50_selected.jpg",
+    "id": "selected_50",
+    "price": 4400,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Classic (100\u00a0г)",
+    "type": "classic",
+    "weight": 100,
+    "image": "100_classic.jpg",
+    "id": "classic_100",
+    "price": 7800,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Premium (100\u00a0г)",
+    "type": "premium",
+    "weight": 100,
+    "image": "100_premium.jpg",
+    "id": "premium_100",
+    "price": 8400,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Selected (100\u00a0г)",
+    "type": "selected",
+    "weight": 100,
+    "image": "100_selected.jpg",
+    "id": "selected_100",
+    "price": 8800,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Classic (250\u00a0г)",
+    "type": "classic",
+    "weight": 250,
+    "image": "250_classic.jpg",
+    "id": "classic_250",
+    "price": 19000,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Premium (250\u00a0г)",
+    "type": "premium",
+    "weight": 250,
+    "image": "250_premium.jpg",
+    "id": "premium_250",
+    "price": 20500,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Selected (250\u00a0г)",
+    "type": "selected",
+    "weight": 250,
+    "image": "250_selected.jpg",
+    "id": "selected_250",
+    "price": 21500,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Classic (500\u00a0г)",
+    "type": "classic",
+    "weight": 500,
+    "image": "500_classic.jpg",
+    "id": "classic_500",
+    "price": 38000,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Premium (500\u00a0г)",
+    "type": "premium",
+    "weight": 500,
+    "image": "500_premium.jpg",
+    "id": "premium_500",
+    "price": 40000,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Selected (500\u00a0г)",
+    "type": "selected",
+    "weight": 500,
+    "image": "500_selected.jpg",
+    "id": "selected_500",
+    "price": 42000,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Sterlet Забойная (50\u00a0г)",
+    "type": "sterlet-zab",
+    "weight": 50,
+    "image": "50_zsterlet.jpg",
+    "id": "zsterlet_50",
+    "price": 3950,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Sterlet Забойная (100\u00a0г)",
+    "type": "sterlet-zab",
+    "weight": 100,
+    "image": "100_zsterlet.jpg",
+    "id": "zsterlet_100",
+    "price": 7850,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Sterlet Забойная (250\u00a0г)",
+    "type": "sterlet-zab",
+    "weight": 250,
+    "image": "250_zsterlet.jpg",
+    "id": "zsterlet_250",
+    "price": 19500,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Sterlet (50\u00a0г)",
+    "type": "sterlet",
+    "weight": 50,
+    "image": "50_sterlet.jpg",
+    "id": "sterlet_50",
+    "price": 3600,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная Sterlet (100\u00a0г)",
+    "type": "sterlet",
+    "weight": 100,
+    "image": "100_sterlet.jpg",
+    "id": "sterlet_100",
+    "price": 7100,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная забойная осетровая «Traditional» ст/б (100\u00a0г)",
+    "type": "traditional",
+    "weight": 100,
+    "image": "100_limited.jpg",
+    "id": "limited_100",
+    "price": 9000,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная забойная осетровая «Traditional» ж/б (250\u00a0г)",
+    "type": "traditional",
+    "weight": 250,
+    "image": "250_limited.jpg",
+    "id": "limited_250",
+    "price": 22500,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная паюсная «Pressed» ст/б (50\u00a0г)",
+    "type": "pressed",
+    "weight": 50,
+    "image": "50_paus.jpg",
+    "id": "paus_50",
+    "price": 4200,
+    "old_price": ""
+  },
+  {
+    "name": "Икра чёрная паюсная «Pressed» ст/б (100\u00a0г)",
+    "type": "pressed",
+    "weight": 100,
+    "image": "100_paus.jpg",
+    "id": "paus_100",
+    "price": 8400,
+    "old_price": ""
+  }
+]

@@ -3,7 +3,7 @@ import whatsapp from '../img/whatsapp.svg';
 import viber from '../img/viber.svg';
 import phone from '../img/phone.svg';
 
-import toggleMenu from './toggleMenu.ts';
+import toggleMenu from '../scripts/toggleMenu.ts';
 
 export default function Header() {
     return (
