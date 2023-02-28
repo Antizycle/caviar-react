@@ -27,7 +27,6 @@ email. If any of checks are not passed, script sends error message back to Axios
 Used for development: Webpack, basic React, Popper-React, Axios, react-yandex-maps.
 
 Todo:
-- fix order popup reseting issue
 - add 'Order a Callback" button and functionality;
 - rework filter and sorting section and functionality;
 - add a proper shopping cart;
@@ -35,7 +34,6 @@ Todo:
 - tidy up css, maybe split the source sheets in multiple files. It is getting a bit crowded there :)
 
 Known Issues:
-- order popup does not reset properly upon closing after order submission;
 - layout is a bit off on some less used screen widths;
 - yandex map widget spits out warnings.
 

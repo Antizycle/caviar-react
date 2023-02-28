@@ -21,21 +21,21 @@ export default function Button({id, name, type, price, children}) {
   const domNode = useClickOutside(() => {
     setPopupIsVisible(false);
     setFormHidden(false);
-    
+    setOrderStatusMsg(<span>Перезвоним в течение 15-ти минут!</span>);
   });
 
   function preValidate(inputString, inputField) {
     let msg = 'Только русские и английские буквы';
     let testStr = /^[а-яёa-z- ]+$/iu;
 
-    if(inputField === 'phone') {
+    if (inputField === 'phone') {
       msg = 'Некорректный номер телефона';
       testStr = /^(\+)?([- ()]?\d[- ()]?){6,14}?$/;
     }
 
-    if(!testStr.test(inputString)) {
+    if (!testStr.test(inputString)) {
       setFormValidateMsg({...formValidateMsg, [inputField]: msg});
-      if(formValidateMsg.name) setFormOk(false);
+      if (formValidateMsg.name) setFormOk(false);
       return false;
     }
     else {
