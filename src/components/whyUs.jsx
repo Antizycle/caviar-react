@@ -2,7 +2,7 @@
 export default function WhyUs() {
   return (
       <>
-        <div className='main__content' id='delivery'>
+        <div className='main__content'>
           <section className="content__wrapper">
             <section className='content__text-column54  text-left'>
               <h1>

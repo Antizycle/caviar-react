@@ -2,7 +2,7 @@ import phone from '../img/phone.svg';
 
 export default function Delivery() {
   return (
-      <div className='main__content' id='delivery'>
+      <div className='main__content'>
         <section className="content__wrapper gap1rem">
           <section className='content__text-column30'>
           <img src="./img/delivery.jpg" 

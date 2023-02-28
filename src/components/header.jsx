@@ -16,11 +16,17 @@ export default function Header() {
               <div className='nav__link nav__link--highlight'>
                   <a href='#catalog'>Каталог</a>
               </div>
+              <div className='nav__link nav__link--highlight only-mobile'>
+                  <a href='#giftboxes'>Подарочные наборы</a>
+              </div>
               <div className='nav__link nav__link--highlight'>
                   <a href='#delivery'>Доставка</a>
               </div>
               <div className='nav__link nav__link--highlight'>
                   <a href='#varieties'>Сорта</a>
+              </div>
+              <div className='nav__link nav__link--highlight only-mobile'>
+                  <a href='#whyus'>Почему мы</a>
               </div>
               <div className='nav__link nav__link--highlight'>
                   <a href='#contacts'>Контакты</a>

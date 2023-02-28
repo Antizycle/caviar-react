@@ -1,7 +1,7 @@
 
 export default function Varieties() {
   return (
-      <div className='main__content' id='varieties'>
+      <div className='main__content'>
         <h1>Сорта чёрной икры</h1>
         <section className="content__wrapper">
           <div className="catalog__card" id='variety-classic'>

@@ -62,7 +62,7 @@ export default function Catalog() {
 
 
   return (
-    <div className='main__content' id='catalog'>
+    <div className='main__content'>
       <h1>Каталог</h1>
       <section className='catalog-control'>
         <div className='control__filters'>
@@ -76,8 +76,8 @@ export default function Catalog() {
                >
             <div>
               Фильтры: 
-                <input type="submit" name="filter" value="Применить" className='margin-l-1rem' />
-                <input type="reset" name="reset" value="Сбросить" className='margin-l-1rem' />
+                <input type="submit" name="filter" value="Применить" className='btn-filter margin-l-1rem inline-block' />
+                <input type="reset" name="reset" value="Сбросить" className='btn-filter margin-l-1rem inline-block' />
             </div>
             <div className='type-checkboxes'>
               Тип:
@@ -133,7 +133,9 @@ export default function Catalog() {
           </div>
         </div>
         <div className='control__sorting'>
+           Сортировка:<br />
            <select name='sort' id='sorting-select' title='Сортировка'
+                   className='sorting-select'
                    onChange={(event) => {
                     sortCatalog(event.target.value);                    
                    }}>

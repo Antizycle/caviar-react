@@ -6,6 +6,7 @@ import Delivery from './delivery.jsx';
 import RetailShops from './retailShops.jsx';
 import Varieties from './varieties.jsx';
 import WhyUs from './whyUs.jsx';
+import Footer from './footer.jsx';
 // import Contacts from './contacts.jsx';
 
 export default function Main() {
@@ -14,18 +15,19 @@ export default function Main() {
       <MainHeader />
       <hr />
       <SpecialOffer />
-      <hr />
+      <hr id='catalog' />
       <Catalog />
-      <hr />
+      <hr id='giftboxes' />
       <GiftBoxes />
-      <hr />
+      <hr id='delivery'/>
       <Delivery />
       <RetailShops />
-      <hr />
+      <hr id='varieties' />
       <Varieties />
-      <hr />
+      <hr id='whyus' />
       <WhyUs />
-      <hr />
+      <hr id='contacts'/>
+      <Footer />
     </main>
   );
 }
